@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Réservation</title>
+    <link rel="stylesheet" href="réservation.css">
 </head>
 <body>
     <h1>Réservez votre table</h1>
@@ -11,26 +12,24 @@
     <div>
     <p>Que ce soit pour une soirée romantique, un dîner en famille ou une célébration entre amis, réservez votre table et laissez-vous séduire par notre cuisine exquise et notre ambiance chaleureuse. 
         Bon appétit!🍽️</p>
-   </div> 
+   </div>
 
+<fieldset>
    <form action="/submit_" method="post">
     <label for="name">Nom(s):</label>
-    <input type="text"><br>
+    <input type="text"><br><br>
     <label for="name">Prénom(s):</label>
-    <input type="text"><br>
+    <input type="text"><br><br>
     <label for="phone">Téléphone</label>
-    <input type="number" required><br>
+    <input type="phone" required><br><br>
     <label for="date">Date:</label>
-    <input type="date"><br>
+    <input type="date"><br><br>
     <label for="time">Heure:</label>
-    <input type="number" ><br>
-    <label for="people">Nbre de personne:</label>
-    <input type="number" name="people" id="people"><br>
+    <input type="number" ><br><br>
+    <label for="people">Nombre:</label>
+    <input type="number" name="people" id="people"><br><br>
     <input type="submit" value="Réserver">
-
-
-
-
+</fieldset>
    </form>
 </body>
 </html>
